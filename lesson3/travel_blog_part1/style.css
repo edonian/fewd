@@ -1,0 +1,100 @@
+body {
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    color: #3F3C3C;
+    font-weight:300;
+    font-size: 1.3 em;
+}
+
+h1 a {
+    text-align: center;
+    font-style: none; 
+    font-family: Lato;
+    font-weight:300;
+    padding: 10px;
+    color:#F9D483;
+}
+
+h2 a:link {
+    font-style: none; 
+    font-family: Lato;
+    font-weight:300;
+    padding: 0px;
+    color:#000000;   
+}
+
+h3 {
+    font-style: none; 
+    font-family: Lato;
+    font-weight:300;
+    padding-top: 25px;
+    color:#D2D2D2; 
+}
+
+h4 a:link {
+    float: right;
+    font-style: none; 
+    font-family: Lato;
+    font-weight:300;
+    padding: 20px;
+    color:#F9D483;
+}
+
+.image {
+    /*width:70%;*/
+}
+
+.container {
+    width:80%;
+}
+
+article { 
+    display: block;
+}
+
+
+hr {
+    padding-top:0px;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+    }
+
+.sidebar {
+    float: right;
+    width: 20%;
+}
+
+
+nav ul {
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+nav li {
+    list-style: none;
+    display: inline
+}
+
+nav li a:link {
+    font-size: 20px; 
+    color: #D2D2D2;
+    padding:15px;
+    border-bottom: 1px solid;
+    padding-bottom: 3px; 
+    /** How did you shorten the borderline?? **/
+}
+
+footer {
+    padding:40px;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
